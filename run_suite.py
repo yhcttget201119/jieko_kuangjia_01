@@ -20,3 +20,5 @@ with open(report_path, mode='wb') as f:
                                                description="我们的IHRM的接口测试报告")
     # 使用实例化的runner运行测试套件，生成测试报告
     runner.run(suite)
+print("*"*100)
+print("测试轮巡构建是否生效")
